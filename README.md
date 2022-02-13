@@ -45,6 +45,6 @@ gradle clean local -DdeviceHost=emulation
 
 <p  align="left">
 <code>
-<img width="80%" title="Allure video" src="resources/media/emulatorMobileAndroidTest.gif">
+<img width="80%" title="Allure video" src="src/test/resources/media/emulatorMobileAndroidTest.gif">
 </code>
 </p>
