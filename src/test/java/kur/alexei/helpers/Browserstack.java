@@ -12,7 +12,7 @@ public class Browserstack {
         return given()
                 .auth().basic(config.userName(), config.accessKey())
                 .when()
-                .get("https://api-cloud.browserstack.com/app-automate/sessions/" + sessionId +".json")
+                .get(config.videoUrl() + sessionId +".json")
                 .then()
                 .statusCode(200)
                 .log().body()

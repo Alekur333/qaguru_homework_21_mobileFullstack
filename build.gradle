@@ -68,10 +68,17 @@ test {
     }
 }
 
-task selenide_android(type: Test) {
+task browserStack(type: Test) {
     systemProperties(System.getProperties())
     useJUnitPlatform {
-        includeTags 'selenide_android'
+        includeTags 'browserStack'
     }
-}
 
+    task local(type: Test) {
+        systemProperties(System.getProperties())
+        useJUnitPlatform {
+            includeTags 'local'
+        }
+    }
+
+}
