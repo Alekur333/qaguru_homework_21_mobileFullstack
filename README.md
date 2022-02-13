@@ -36,3 +36,15 @@ export PATH=”${PATH}:/$ANDROID_HOME/tools:/$ANDROID_HOME/tools/bin:/$ANDROID_H
 
 Для каждого сделать драйвер и конфиг с owner
 
+
+
+
+## Запуск тестов на эмуляторе Андроид локально
+### Тестовый прогон по тэгу local для настрoек драйвера эмулятора через переменную deviceHost по команде
+gradle clean local -DdeviceHost=emulation
+
+<p  align="left">
+<code>
+<img width="80%" title="Allure video" src="media/emulatorMobileAndroidTest.gif">
+</code>
+</p>
