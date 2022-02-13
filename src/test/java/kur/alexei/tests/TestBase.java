@@ -24,7 +24,7 @@ public class TestBase {
 
         String deviceHost = System.getProperty("deviceHost");
         if (deviceHost == null) {
-            System.setProperty("deviceHost", "browserstack");
+            System.setProperty("deviceHost", "emulation");
             deviceHost = System.getProperty("deviceHost");
         }
 
@@ -62,6 +62,6 @@ public class TestBase {
         Attach.pageSource();
 //        Attach.browserConsoleLogs();
         closeWebDriver();
-        Attach.attachVideo(sessionId);
+//        Attach.attachVideo(sessionId);
     }
 }
