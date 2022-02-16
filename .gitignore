@@ -39,3 +39,4 @@ target/
 /gradlew.bat
 .todo
 *.properties
+browserstack.properties
