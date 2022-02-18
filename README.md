@@ -1,10 +1,21 @@
-21. Мобильная автоматизация #2. Разрабатываем автотесты с эмулятором Android-устройства и на своем телефоне
+<h1>Проект автоматизации тесткейсов на платформе Android для приложения Wikipedia.</h1>
 
-Задание
+Спроектирован прогон тестов на разных стендах:
 
-1. Установить android studio https://developer.android.com/studio
+<p  align="left">
+<code>
+<img width="5%" title="BrowserStack" src="src/test/resources/media/bStack.png">
+<img width="5%" title="JUnit5" src="readme-pics/JUnit5_icon.png">
+<img width="5%" title="Selenide" src="readme-pics/Selenide_icon.svg">
+<img width="5%" title="Gradle" src="readme-pics/Gradle_icon.svg">
+</code>
+</p>
 
-2. Прописать path:
+<h4>При выполнении проекта проделана следующая работа:</h4>
+<pre>
+1. Установлен android studio https://developer.android.com/studio
+
+2. Прописаны path на macOs:
 Параметры Path:
 Windows:
 %ANDROID_HOME%\tools
@@ -18,24 +29,24 @@ $ANDROID_HOME/platform-tools
 Одной строкой, можно скопировать и добавить в .bash_profile:
 export PATH=”${PATH}:/$ANDROID_HOME/tools:/$ANDROID_HOME/tools/bin:/$ANDROID_HOME/platform-tools”
 
-3. Установить appium desktop https://github.com/appium/appium-desktop
+3. Установлен appium desktop https://github.com/appium/appium-desktop
 
-4. В android studio -> SDK Manager скачать 11 андроид (если не скачан по умолчанию)
+4. В android studio -> SDK Manager смонтирован 11 андроид
 
-5. В AVD Manager скачать образ Pixel 4 для 11 андроида (если не скачан по умолчанию)
+5. В AVD Manager смонтирован образ Pixel 4 для 11 андроида
 
-6. Запустить эмулятор телефона, опробовать кнопки и функционал
+6. Использован эмулятор телефона
 
-7. Открыть Appium Desktop, запустить server, проконектиться к эмулятору
+7. Использован Appium Desktop, по Appium server установлена связь с эмулятором
 
-8. Открыть в appium desktop инспектор, изучить его функционал, попробовать найти локатор
+8. С помощью appium desktop инспектор определены локаторы для тесткейсов
 
-9. Разработать автотест на getting started в приложении википедии - пройти по 4м экранам, на каждом сделать проверку
+9. Разработатны автотесты на getting started в приложении  - проход по 4м экранам, на каждом сделаны проверки
 
-10. Доработать возможность запуска на разных стендах (передать из командной строки -DdeviceHost=browserstack / selenoid / emulation / real
+10. Настроена возможность запуска на разных стендах по параметру из командной строки -DdeviceHost=browserstack / selenoid / emulation / real
 
 Для каждого сделать драйвер и конфиг с owner
-
+</pre>
 
 
 
