@@ -3,15 +3,14 @@
 Спроектирован прогон тестов на разных стендах:
 
 <p  align="left">
-
-
+<code>
 <img width=100px height=100px title="BrowserStack remote" src="src/test/resources/media/bStack.png">
 <img width=100px height=100px title="Selenide remote" src="src/test/resources/media/Selenide_icon.svg">
-<div width=100px height=100px>
+<span width=100px height=100px>
 <img align="center" title="Android device" src="src/test/resources/media/androidDevice.jpg">
-</div>
+</span>
 <img width=100px height=100px title="Android Virtual device" src="src/test/resources/media/avd.jpg">
-
+</code>
 </p>
 
 <h4>При выполнении проекта проделана следующая работа:</h4>
