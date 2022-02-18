@@ -2,7 +2,7 @@
 
 Спроектирован прогон тестов на разных стендах:
 
-<div  align="left">
+<p  align="left">
 
 
 <img width=100px height=100px title="BrowserStack remote" src="src/test/resources/media/bStack.png">
@@ -12,7 +12,7 @@
 </div>
 <img width=100px height=100px title="Android Virtual device" src="src/test/resources/media/avd.jpg">
 
-</div>
+</p>
 
 <h4>При выполнении проекта проделана следующая работа:</h4>
 <pre>
