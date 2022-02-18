@@ -6,7 +6,9 @@
 <code>
 <img width=100px height=100px title="BrowserStack remote" src="src/test/resources/media/bStack.png">
 <img width=100px height=100px title="Selenide remote" src="src/test/resources/media/Selenide_icon.svg">
-<img width=100px height=100px title="Android device" src="src/test/resources/media/androidDevice.jpg">
+<div width=100px height=100px>
+<img align="center" title="Android device" src="src/test/resources/media/androidDevice.jpg">
+</div>
 <img width=100px height=100px title="Android Virtual device" src="src/test/resources/media/avd.jpg">
 </code>
 </p>
