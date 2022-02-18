@@ -4,10 +4,10 @@
 
 <p  align="left">
 <code>
-<img width="10%" title="BrowserStack" src="src/test/resources/media/bStack.png">
-<img width="10%" title="Selenide remote" src="src/test/resources/media/Selenide_icon.svg">
-<img width="10%" title="Android device" src="src/test/resources/media/androidDevice.jpg">
-<img width="10%" title="Android Virtual device" src="src/test/resources/media/avd.jpg">
+<img width="10%" height="30%" title="BrowserStack" src="src/test/resources/media/bStack.png">
+<img width="10%" height="30%" title="Selenide remote" src="src/test/resources/media/Selenide_icon.svg">
+<img width="10%" height="30%" title="Android device" src="src/test/resources/media/androidDevice.jpg">
+<img width="10%" height="30%" title="Android Virtual device" src="src/test/resources/media/avd.jpg">
 </code>
 </p>
 
