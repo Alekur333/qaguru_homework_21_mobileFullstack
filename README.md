@@ -41,8 +41,8 @@ export PATH=”${PATH}:/$ANDROID_HOME/tools:/$ANDROID_HOME/tools/bin:/$ANDROID_H
 
 
 <h4> Пример запуска тестов на эмуляторе Андроид локально</h4>
-<h5> Тестовый прогон по тэгу local для настрoек драйвера эмулятора через переменную deviceHost. </h5>
-Команда для запуска gradle clean local -DdeviceHost=emulation
+<h5> Тестовый прогон по task emulation для настрoек драйвера эмулятора через переменную -DdeviceHost=emulation. </h5>
+Команда для запуска gradle clean emulation
 
 <p  align="left">
 <code>

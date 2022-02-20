@@ -73,12 +73,29 @@ task browserStack(type: Test) {
     useJUnitPlatform {
         includeTags 'browserStack'
     }
+    systemProperty "deviceHost", "browserstack"
+}
 
-    task local(type: Test) {
+    task selenoid(type: Test) {
         systemProperties(System.getProperties())
         useJUnitPlatform {
             includeTags 'local'
         }
+        systemProperty "deviceHost", "selenoid"
     }
 
-}
+    task emulation(type: Test) {
+        systemProperties(System.getProperties())
+        useJUnitPlatform {
+            includeTags 'local'
+        }
+        systemProperty "deviceHost", "emulation"
+    }
+
+    task real(type: Test) {
+        systemProperties(System.getProperties())
+        useJUnitPlatform {
+            includeTags 'local'
+        }
+        systemProperty "deviceHost", "real"
+    }
