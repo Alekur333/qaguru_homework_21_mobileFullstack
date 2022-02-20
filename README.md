@@ -49,3 +49,6 @@ export PATH=”${PATH}:/$ANDROID_HOME/tools:/$ANDROID_HOME/tools/bin:/$ANDROID_H
 <img width="80%" title="Allure video" src="src/test/resources/media/emulatorMobileAndroidTest.gif">
 </code>
 </p>
+
+Jenkins Job
+https://jenkins.autotests.cloud/job/C09-alexqur-hw21-mobile/
