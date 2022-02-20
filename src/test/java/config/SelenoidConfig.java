@@ -20,6 +20,8 @@ public interface SelenoidConfig extends Config {
 
     String app();
 
+    String apkUrl();
+
     String platformName();
 
     String appPackage();

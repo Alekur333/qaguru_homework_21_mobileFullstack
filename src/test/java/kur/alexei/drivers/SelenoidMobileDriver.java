@@ -29,9 +29,9 @@ public class SelenoidMobileDriver implements WebDriverProvider {
     @Override
     public WebDriver createDriver(DesiredCapabilities desiredCapabilities) {
 
-        desiredCapabilities.setCapability("app",
-                getAbsolutePath(config.app()));
-//        desiredCapabilities.setCapability("app", apkUrl());
+//        desiredCapabilities.setCapability("app",
+//                getAbsolutePath(config.app()));
+        desiredCapabilities.setCapability("app", apkUrl());
         desiredCapabilities.setCapability("locale", "en");
         desiredCapabilities.setCapability("language", "en");
         desiredCapabilities.setCapability("platformName", config.platformName());
@@ -45,7 +45,7 @@ public class SelenoidMobileDriver implements WebDriverProvider {
 
     private URL apkUrl() {
         try {
-            return new URL("https://github.com/wikimedia/apps-android-wikipedia/releases/download/latest/app-alpha-universal-release.apk");
+            return new URL(config.apkUrl());
         } catch (MalformedURLException e) {
             e.printStackTrace();
         }
