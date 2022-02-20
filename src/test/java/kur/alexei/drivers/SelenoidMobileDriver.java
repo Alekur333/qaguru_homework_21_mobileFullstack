@@ -36,6 +36,7 @@ public class SelenoidMobileDriver implements WebDriverProvider {
         desiredCapabilities.setCapability("language", "en");
         desiredCapabilities.setCapability("platformName", config.platformName());
         desiredCapabilities.setCapability("deviceName", config.deviceName());
+        desiredCapabilities.setCapability("version", config.version());
         desiredCapabilities.setCapability("appPackage", config.appPackage());
         desiredCapabilities.setCapability("appActivity", config.appActivity());
 
