@@ -14,7 +14,7 @@
 <h4>При выполнении проекта проделана следующая работа:</h4>
 <pre>
 1.Установлен android studio https://developer.android.com/studio
-2.Прописаны path на macOs:
+2.Прописаны path в системе
 Параметры Path:
 Windows:
 %ANDROID_HOME%\tools
